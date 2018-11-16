@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name DATALOGGER01A-rescue)(type Legacy)(uri ${KIPRJMOD}/DATALOGGER01A-rescue.lib)(options "")(descr ""))
+  (lib (name TFPilot01A-rescue)(type Legacy)(uri ${KIPRJMOD}/TFPilot01A-rescue.lib)(options "")(descr ""))
+)
