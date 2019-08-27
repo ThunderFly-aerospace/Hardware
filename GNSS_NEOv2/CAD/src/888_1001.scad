@@ -10,7 +10,7 @@ gps_case_outer_diameter = 60;
 gps_case_wall = 3;
 
 led_layer_thickness = 3;
-gps_led_diameter = 45.5;
+gps_led_diameter = 45.5 + 2;
 
 screw_a_x = 41.3;
 screw_a_y = 9.35;
