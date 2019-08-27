@@ -18,7 +18,7 @@ screw_b_x = 16.96;
 screw_b_y = 20.24;
 
 space_below = 6;
-space_above = 6;
+space_above = 3;
 wall = 1.5;
 
 module 888_2001a(){
@@ -115,5 +115,5 @@ module 888_2001c(){
 
 
 translate([0, 0, -wall - space_below - gps_pcb_thickness]) 888_2001a();
-//color("yellow") 888_2001b();
-//translate([0, 0, led_layer_thickness]) 888_2001c();
+color("yellow") 888_2001b();
+translate([0, 0, led_layer_thickness]) 888_2001c();
